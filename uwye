@@ -1,0 +1,36 @@
+Org admin:
+{
+    "version": "0.0.1",
+    "statements": [
+        {
+            "actions": [
+                "coscene.dataplatform.v1alpha1.services.DeviceService/*",
+                "coscene.dataplatform.v1alpha1.services.WorkflowTemplateService/*",
+                "coscene.dataplatform.v1alpha1.services.RevisionService/*",
+                "coscene.dataplatform.v1alpha1.services.RoleService/*",
+                "coscene.dataplatform.v1alpha1.services.EventBlueprintService/*",
+                "coscene.dataplatform.v1alpha1.services.UserService/*",
+                "coscene.dataplatform.v1alpha1.services.TagService/*",
+                "coscene.dataplatform.v1alpha1.services.OrganizationService/ListOrganizations",
+                "coscene.dataplatform.v1alpha1.services.OrganizationService/GetOrganization",
+                "coscene.dataplatform.v1alpha1.services.OrganizationService/UpdateOrganization",
+                "coscene.dataplatform.v1alpha1.services.OrganizationService/AddOrganizationUser",
+                "coscene.dataplatform.v1alpha1.services.OrganizationService/RemoveOrganizationUser",
+                "coscene.dataplatform.v1alpha1.services.OrganizationService/ListUserOrganizations",
+                "coscene.dataplatform.v1alpha1.services.AlbumService/*",
+                "coscene.dataplatform.v1alpha1.services.DeviceModelService/*",
+                "coscene.dataplatform.v1alpha1.services.ActivityService/ListActivities",
+                "coscene.dataplatform.v1alpha1.services.BlobService/*",
+                "coscene.dataplatform.v1alpha1.services.WarehouseService/*",
+                "coscene.dataplatform.v1alpha1.services.TeamService/*",
+                "coscene.dataplatform.v1alpha1.services.ProjectService/*",
+                "coscene.dataplatform.v1alpha1.services.RecordService/*",
+                "coscene.dataplatform.v1alpha1.services.EventService/*"
+            ],
+            "resources": [
+                "*"
+            ],
+            "effect": "ALLOW"
+        }
+    ]
+}
